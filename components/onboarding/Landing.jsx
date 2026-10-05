@@ -1,6 +1,6 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React from "react";
-import { Plus, Search, Users } from "lucide-react";
+import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Check, Users, Dice5, Star, X, Share2, UserPlus, MessageCircle, Link2, Instagram, Heart, UserCheck } from "lucide-react";
 
 function Landing({ nav }) {
   // Antes esta pantalla mostraba una "vitrina" con planes reales de Supabase
