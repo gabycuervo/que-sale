@@ -5,6 +5,8 @@ import { STORIES, QUICK_CATS, WHEN_OPTIONS } from "../../lib/planConstants";
 import { PlanCard } from "../plans/PlanCard";
 import { CategoryChips, StoriesRow, TimeTabs, LoadingBlock, ErrorBlock } from "../ui/AppPrimitives";
 import { reasonFor } from "../../lib/planUtils";
+import { useAuth } from "../../lib/AuthContext";
+import { Avatar, LiveDot, TopBar } from "../ui/AppPrimitives";
 
 function Surprise({ plan, onClose, onView }) {
   return (
