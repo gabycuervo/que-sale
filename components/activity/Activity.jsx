@@ -4,6 +4,7 @@ import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Che
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
 import { Avatar, LoadingBlock } from "../ui/AppPrimitives";
+import { relativeTimeFromNow } from "../../lib/planUtils";
 
 function Activity() {
   const { user } = useAuth();
