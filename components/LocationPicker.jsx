@@ -11,13 +11,7 @@ import { useRef, useState } from "react";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-
-const INK = "#161520";
-const BRAND = "#6C4CFF";
-const LINE = "#ECE6DA";
-const MUTED = "#8B8798";
-const FD = "'Space Grotesk', 'Segoe UI', sans-serif";
-const FB = "'Inter', 'Segoe UI', sans-serif";
+import { INK, BRAND, LINE, MUTED, FD, FB } from "../lib/theme";
 
 // Mismo centro por defecto que ya usa DiscoverMap.jsx (Lima, Perú) mientras la
 // persona no haya tocado el mapa ni pedido su ubicación actual todavía.
