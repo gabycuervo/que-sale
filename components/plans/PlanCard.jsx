@@ -1,6 +1,6 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React from "react";
-import { Clock, Users, Bookmark, Heart, Share2, MessageCircle, UserPlus } from "lucide-react";
+import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Check, Users, Dice5, Star, X, Share2, UserPlus, MessageCircle, Link2, Instagram, Heart, UserCheck } from "lucide-react";
 import { CAT_COLORS, CAT_EMOJI } from "../../lib/categories";
 import { formatPlanWhen, planImage, planCardBg } from "../../lib/planUtils";
 import { Avatar, LiveDot } from "../ui/AppPrimitives";
