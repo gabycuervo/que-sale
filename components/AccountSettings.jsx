@@ -4,16 +4,9 @@ import { useState } from "react";
 import { ChevronLeft, Mail, KeyRound, UserCog, Bell, ShieldCheck, LogOut, Trash2, AlertTriangle } from "lucide-react";
 import { useAuth } from "../lib/AuthContext";
 import { supabase } from "../lib/supabaseClient";
+import { INK, CREAM, BRAND, MUTED, LINE, FD, FB } from "../lib/theme";
 
-/* Mismos tokens de diseño que QueSaleApp.jsx / MyAccountProfile.jsx */
-const INK = "#161520";
-const CREAM = "#FAF7F1";
-const BRAND = "#6C4CFF";
-const MUTED = "#8B8798";
-const LINE = "#ECE6DA";
 const DANGER = "#D64545";
-const FD = "'Space Grotesk', 'Segoe UI', sans-serif";
-const FB = "'Inter', 'Segoe UI', sans-serif";
 
 const cardStyle = { background: "white", border: `1px solid ${LINE}`, borderRadius: 14, overflow: "hidden", marginBottom: 18 };
 const sectionTitleStyle = { fontFamily: FB, fontWeight: 700, fontSize: 11.5, color: MUTED, textTransform: "uppercase", letterSpacing: 0.4, margin: "0 0 8px 2px" };
