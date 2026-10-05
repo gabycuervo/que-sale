@@ -6,17 +6,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { Search, X, Users, MapPin, Clock, Send, Bookmark, LocateFixed } from "lucide-react";
 import { CAT_COLORS, CATEGORIES, CAT_EMOJI } from "../lib/categories";
-
-/* Mismos tokens de diseño que QueSaleApp.jsx, para mantener consistencia visual */
-const INK = "#161520";
-const BRAND = "#6C4CFF";
-const BRAND_DARK = "#4B31D1";
-const BRAND_BG = "#EDE8FF";
-const LIVE = "#FF3D6E";
-const MUTED = "#8B8798";
-const LINE = "#ECE6DA";
-const FD = "'Space Grotesk', 'Segoe UI', sans-serif";
-const FB = "'Inter', 'Segoe UI', sans-serif";
+import { INK, BRAND, BRAND_DARK, BRAND_BG, LIVE, MUTED, LINE, FD, FB } from "../lib/theme";
 
 // Centro por defecto del mapa (Lima, Perú — la app ya asume esta zona horaria/ciudad
 // en el resto del código). Solo se usa mientras no hay ningún plan con pin todavía.
