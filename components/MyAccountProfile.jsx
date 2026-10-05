@@ -6,17 +6,7 @@ import { useAuth } from "../lib/AuthContext";
 import { supabase } from "../lib/supabaseClient";
 import AccountSettings from "./AccountSettings";
 import { CAT_COLORS, CAT_EMOJI } from "../lib/categories";
-
-/* Mismos tokens de diseño que QueSaleApp.jsx */
-const INK = "#161520";
-const CREAM = "#FAF7F1";
-const BRAND = "#6C4CFF";
-const BRAND_DARK = "#4B31D1";
-const BRAND_BG = "#EDE8FF";
-const MUTED = "#8B8798";
-const LINE = "#ECE6DA";
-const FD = "'Space Grotesk', 'Segoe UI', sans-serif";
-const FB = "'Inter', 'Segoe UI', sans-serif";
+import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, MUTED, LINE, FD, FB } from "../lib/theme";
 
 export default function MyAccountProfile({ onBack }) {
   const { user, profile, profileLoading, signOut, refreshProfile } = useAuth();
