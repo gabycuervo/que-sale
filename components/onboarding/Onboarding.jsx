@@ -1,7 +1,7 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React, { useState } from "react";
 import { CATEGORIES, CAT_EMOJI } from "../../lib/categories";
-import { QUICK_CATS } from "../../lib/planConstants";
+import { QUICK_CATS, AVAILABILITY } from "../../lib/planConstants";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
 import { ChoiceCard } from "../ui/AppPrimitives";
