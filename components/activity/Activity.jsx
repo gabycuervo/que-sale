@@ -1,6 +1,6 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React, { useEffect, useState } from "react";
-import { Bell, Check, UserPlus, Heart, MessageCircle } from "lucide-react";
+import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Check, Users, Dice5, Star, X, Share2, UserPlus, MessageCircle, Link2, Instagram, Heart, UserCheck } from "lucide-react";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
 import { Avatar, LoadingBlock } from "../ui/AppPrimitives";
