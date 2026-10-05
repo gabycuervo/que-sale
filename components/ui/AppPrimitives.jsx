@@ -5,7 +5,7 @@ function Avatar({ color, initial, size = 28, ring = true, photo, avatarUrl }) {
     return <img src={avatarUrl} alt="" style={{ width: size, height: size, borderRadius: "50%", objectFit: "cover", border: ring ? "2px solid white" : "none", flexShrink: 0 }} />;
   }
   if (photo) {
-    return <img src={photo(photo, size * 2, size * 2)} alt="" style={{ width: size, height: size, borderRadius: "50%", objectFit: "cover", border: ring ? "2px solid white" : "none", flexShrink: 0 }} />;
+    return <img src={photo} alt="" style={{ width: size, height: size, borderRadius: "50%", objectFit: "cover", border: ring ? "2px solid white" : "none", flexShrink: 0 }} />;
   }
   return <div style={{ width: size, height: size, borderRadius: "50%", background: color, display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontWeight: 600, fontSize: size * 0.4, fontFamily: FD, border: ring ? "2px solid white" : "none", flexShrink: 0 }}>{initial}</div>;
 }
