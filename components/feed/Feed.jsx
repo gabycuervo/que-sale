@@ -1,5 +1,6 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React, { useState } from "react";
+import { X, MapPin, Bookmark, User, Dice5 } from "lucide-react";
 import { CATEGORIES, CAT_COLORS, CAT_EMOJI } from "../../lib/categories";
 import { STORIES, QUICK_CATS, WHEN_OPTIONS } from "../../lib/planConstants";
 import { PlanCard } from "../plans/PlanCard";
