@@ -4,7 +4,6 @@ import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Che
 import { CAT_COLORS, CAT_EMOJI } from "../../lib/categories";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
-import { joinButtonInfo } from "../../lib/planUtils";
 import { formatPlanWhen, planImage, planCardBg, joinButtonInfo } from "../../lib/planUtils";
 import { Avatar, LiveDot, TopBar } from "../ui/AppPrimitives";
 import { ShareSheet, CommentsSheet } from "./PlanSheets";
