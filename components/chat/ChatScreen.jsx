@@ -5,6 +5,7 @@ import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
 import { Avatar } from "../ui/AppPrimitives";
 import { planCardBg } from "../../lib/planUtils";
+import { CAT_EMOJI } from "../../lib/categories"
 
 function ChatScreen({ plan, onBack, onToast }) {
   const { user } = useAuth();
