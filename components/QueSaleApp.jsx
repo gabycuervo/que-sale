@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useEffect, useCallback, useRef }import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../lib/theme";
+ from "react";
 import { createPortal } from "react-dom";
 import dynamic from "next/dynamic";
 import {
@@ -42,18 +43,6 @@ const DiscoverMap = dynamic(() => import("./DiscoverMap"), {
 const LocationPicker = dynamic(() => import("./LocationPicker"), { ssr: false });
 
 /* ---------- Design tokens: brand ¿Qué sale? ---------- */
-const INK = "#161520";
-const CREAM = "#FAF7F1";
-const BRAND = "#6C4CFF";
-const BRAND_DARK = "#4B31D1";
-const BRAND_BG = "#EDE8FF";
-const LIVE = "#FF3D6E";
-const LIME = "#C6FF3D";
-const MUTED = "#8B8798";
-const LINE = "#ECE6DA";
-
-const FD = "'Space Grotesk', 'Segoe UI', sans-serif";
-const FB = "'Inter', 'Segoe UI', sans-serif";
 
 const STORIES = CATEGORIES.filter((c) => c !== "Todos").map((c) => ({
   key: c, emoji: CAT_EMOJI[c],
