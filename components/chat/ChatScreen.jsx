@@ -4,6 +4,7 @@ import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Che
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
 import { Avatar } from "../ui/AppPrimitives";
+import { planCardBg } from "../../lib/planUtils";
 
 function ChatScreen({ plan, onBack, onToast }) {
   const { user } = useAuth();
