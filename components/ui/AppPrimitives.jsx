@@ -169,8 +169,4 @@ function ErrorBlock({ text, onRetry }) {
     </div>
   );
 }
-
-/* ---------- App shell ---------- */
-export default
-
 export { Avatar, LiveDot, CategoryChips, StoriesRow, TimeTabs, BottomNav, ChoiceCard, TopBar, Toast, LoadingBlock, ErrorBlock };
