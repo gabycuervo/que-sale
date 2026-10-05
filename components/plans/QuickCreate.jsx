@@ -4,7 +4,7 @@ import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Che
 import { CAT_COLORS, CAT_EMOJI } from "../../lib/categories";
 import { QUICK_CATS, CREATE_CATS, WHEN_OPTIONS, BOOST_OPTIONS } from "../../lib/planConstants";
 import { ChoiceCard, TopBar } from "../ui/AppPrimitives";
-import { getCurrentCoords } from "../../lib/planUtils";
+import { getCurrentCoords, draftWhenToStartsAtIso } from "../../lib/planUtils";
 import dynamic from "next/dynamic";
 const LocationPicker = dynamic(() => import("../LocationPicker"), { ssr: false });
 
