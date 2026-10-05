@@ -1,3 +1,4 @@
+import { Home, Search, Plus, Bell, User, ChevronLeft, Check } from "lucide-react";
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 
 function Avatar({ color, initial, size = 28, ring = true, photo, avatarUrl }) {
