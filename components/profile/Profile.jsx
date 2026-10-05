@@ -1,11 +1,11 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React, { useState } from "react";
-import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Check, Users, Dice5, Star, X, Share2, UserPlus, MessageCircle, Link2, Instagram, Heart, UserCheck } from "lucide-react";
+import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Check, Users, Dice5, Star, X, Share2, UserPlus, MessageCircle, Link2, Instagram, Heart, UserCheck, MapPin } from "lucide-react";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../lib/AuthContext";
-import { Avatar } from "../ui/AppPrimitives";
+import { Avatar, TopBar } from "../ui/AppPrimitives";
 import { PlanCard } from "../plans/PlanCard";
-import { CAT_COLORS } from "../../lib/categories";
+import { CAT_COLORS, CAT_EMOJI } from "../../lib/categories";
 
 function Profile({ person, onBack, mine }) {
   // person.realPlans viene siempre de CreatorProfile con los planes reales de
