@@ -6,6 +6,7 @@ import { useAuth } from "../../lib/AuthContext";
 import { Avatar } from "../ui/AppPrimitives";
 import { PlanCard } from "../plans/PlanCard";
 import { normalizePlanRow } from "../../lib/planUtils";
+import { LoadingBlock, ErrorBlock } from "../ui/AppPrimitives";
 
 function CreatorProfile({ personId, onBack }) {
   const { user } = useAuth();
