@@ -1,11 +1,12 @@
 import { INK, CREAM, BRAND, BRAND_DARK, BRAND_BG, LIVE, LIME, MUTED, LINE, FD, FB } from "../../lib/theme";
 import React, { useEffect, useMemo, useState } from "react";
-import { Clock, Users, MapPin, X } from "lucide-react";
+import { Home, Search, Plus, Bell, User, ChevronLeft, Clock, Send, Bookmark, Check, Users, Dice5, Star, X, Share2, UserPlus, MessageCircle, Link2, Instagram, Heart, UserCheck } from "lucide-react";
 import { CAT_COLORS, CAT_EMOJI } from "../../lib/categories";
 import { QUICK_CATS, CREATE_CATS, WHEN_OPTIONS, BOOST_OPTIONS } from "../../lib/planConstants";
 import { ChoiceCard, TopBar } from "../ui/AppPrimitives";
 import { getCurrentCoords } from "../../lib/planUtils";
-import LocationPicker from "../LocationPicker";
+import dynamic from "next/dynamic";
+const LocationPicker = dynamic(() => import("../LocationPicker"), { ssr: false });
 
 function QuickCreate({ onPublish, onCancel, publishing, publishError }) {
   const TOTAL_STEPS = 3;
