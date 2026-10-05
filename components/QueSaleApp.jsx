@@ -928,3 +928,4 @@ function AppShell() {
   }
   return shell;
 }
+export default QueSaleApp;
